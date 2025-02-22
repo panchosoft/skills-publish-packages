@@ -17,7 +17,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/panchosoft/publish-packages/game
+          images: ghcr.io/panchosoft/publish-packages/panchosoft-games
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v3
